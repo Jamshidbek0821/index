@@ -11,9 +11,6 @@ elForm.addEventListener("submit", (evt) => {
      <img class="mx-auto scale-[1.4]" src="./images/loading.png" alt="logo" width="30" height="30">
     `
     let Users =  passwordSaved ?  passwordSaved.some(item => item.username == data.username && item.password == data.password) : passwords.some(item => item.username == data.username && item.password == data.password)
-    console.log(Users);
-    
-
      setTimeout(() =>{
      elForm.lastElementChild.previousElementSibling.innerHTML = `
        Войти
