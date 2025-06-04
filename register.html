@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Регистрация</title>
+    <link rel="stylesheet" href="./Css/main.css">
+    <style type="text/tailwindcss">
+    </style>
+</head>
+<body>
+    <div class="w-[621px] mx-auto bg-white rounded-[25px] text-center pt-[35px] pb-[46px]">
+        <img class="mx-auto" src="./images/img.svg" alt="logo" width="421" height="72">
+        <p class="font-bold  text-[25px] text-center mx-auto text-center w-[547px] mt-[17px] mb-[40px] text-[#A3A3A3]">Введите новое имя и пароль для входа в систему.</p>
+        <form class="flex flex-col items-center gap-[16px] registr-form">
+            <input  autocomplete="off" class="font-bold text-[25px] w-[359px] pt-[15px] pb-[10px] text-[#A3A3A3] rounded-[17px] text-center border-[1px] border-[#CBCBCB]  placeholder:text-[25px] placeholder:text-[#A3A3A3] focus:outline-none"  required  type="text" name="username" placeholder="Новое имя" >
+            <div class="flex relative">
+                <input autocomplete="off" class="font-bold text-[25px] w-[359px] pt-[15px] pb-[10px] text-[#A3A3A3] rounded-[17px] text-center border-[1px] border-[#CBCBCB] placeholder:text-[25px] placeholder:text-[#A3A3A3] focus:outline-none parol"   required  name="password" type="password" placeholder=" Новое  Пароль">
+            </div>
+            <button class="w-[237px] font-bold text-[25px] text-white bg-[#3F8C8E] py-[8px] flex items-center justify-center  rounded-[10px] hover:opacity-[70%] duration-300 active:scale-90" type="submit">
+               Регистрация
+            </button>
+            <a class="text-center text-[25px] text-[#3F8C8E]  hover:scale-[1.2] duration-300"  href="./index.html">Войти</a>
+        </form>
+    </div>
+    <script src="./Js/paswords.js"></script>
+    <script src="./Js/register.js"></script>
+     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+</body>
+</html>
