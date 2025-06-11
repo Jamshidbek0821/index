@@ -8,7 +8,7 @@ elForm.addEventListener("submit", (evt) =>{
         username:evt.target.username.value,
         password:evt.target.password.value,
     }
-    let Users = passwords.some(item => item.username == data.username || item.password == data.password)
+    let Users = passwords.some(item => item.username == data.username && item.password == data.password)
 
       elForm.lastElementChild.previousElementSibling.innerHTML = `
      <img class="mx-auto scale-[1.4] " src="./images/loading.png" alt="logo" width="30" height="30"> 

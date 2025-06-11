@@ -30,19 +30,12 @@
   src: url('../fonts/signika-v25-latin-700.woff2') format('woff2');
 }
 
-body{
+.body{
     display: flex;
     align-items: center;
     justify-content: center;
     height: 100vh;
-    background-image: url(../images/bg-img.jpg);
+    background-image: url(../images/bg-img.png);
     background-repeat: no-repeat;
     background-size: cover;
-}
-
-.input{
-  background-image: url(../images/eyes.img);
-  background-repeat: no-repeat;
-  background-position: right center;
-  background-size: 20px 30px;
 }
