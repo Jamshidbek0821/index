@@ -30,12 +30,28 @@
   src: url('../fonts/signika-v25-latin-700.woff2') format('woff2');
 }
 
-.body{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 100vh;
-    background-image: url(../images/bg-img.png);
-    background-repeat: no-repeat;
-    background-size: cover;
+.containers{
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+body {
+  font-family: "League Spartan", sans-serif;
+}
+.pool-card{
+  box-shadow: 0px 5px 10px 0px #00000040;
+}
+.login-body {
+  background-image: url("../images/bg-img.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.username-input {
+  box-shadow: 0px 0px 7px 0px #00000040;
 }
