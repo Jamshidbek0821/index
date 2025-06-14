@@ -1,7 +1,7 @@
 let isUser = document.querySelector(".logined-user")
 let findedUser = JSON.parse(localStorage.getItem("user"))
 
-isUser.innerHTML = `${findedUser.firstName} ${findedUser.lastName}`
+isUser.innerHTML = `${findedUser.firstname} ${findedUser.lastname}`
 
 modalWrapper.addEventListener("click", (e) => e.target.id == "wrapper" && modalWrapper.classList.add("scale-0"))
 

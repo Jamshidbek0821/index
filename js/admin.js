@@ -3,7 +3,6 @@ let modalInner = document.querySelector(".modal-inner")
 
 let elCategoryList = document.querySelector(".category-list")
 
-
 let products = JSON.parse(localStorage.getItem("products")) || []
 let elProductTable = document.querySelector(".products-table")
 
